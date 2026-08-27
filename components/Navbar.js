@@ -131,17 +131,17 @@ export default function Navbar() {
                 )
               })}
               <li className="nav-cta nav-cta--menu">
-                <a className="btn btn-accent" href="https://bookasloth.com/theedulocusway" target="_blank" rel="noopener noreferrer">
+                <Link className="btn btn-accent" href="/contact">
                   Book a Consultation <i className="fa-solid fa-arrow-right" aria-hidden="true" />
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
 
           <div className="nav-cta nav-cta--header">
-            <a className="btn btn-accent" href="https://bookasloth.com/theedulocusway" target="_blank" rel="noopener noreferrer">
+            <Link className="btn btn-accent" href="/contact">
               Book a Consultation <i className="fa-solid fa-arrow-right" aria-hidden="true" />
-            </a>
+            </Link>
           </div>
         </div>
       </header>

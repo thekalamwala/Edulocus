@@ -32,11 +32,11 @@ export default function Contact() {
               </div>
               <div className="item">
                 <div className="ico"><i className="fa-solid fa-mobile-screen-button" aria-hidden="true" /></div>
-                <div><strong>Appointments</strong><br />Book via <a href="https://bookasloth.com/theedulocusway" target="_blank" rel="noopener noreferrer">bookasloth.com</a> or call us</div>
+                <div><strong>Appointments</strong><br />Book via bookasloth.com or call us</div>
               </div>
             </div>
             <p style={{ marginTop: '18px' }}>
-              <a className="btn btn-primary" href="https://bookasloth.com/theedulocusway" target="_blank" rel="noopener noreferrer">Book an Appointment</a>
+              <Link className="btn btn-primary" href="/contact">Book an Appointment</Link>
             </p>
           </div>
           <div>

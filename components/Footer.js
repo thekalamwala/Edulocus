@@ -57,7 +57,7 @@ export default function Footer() {
             <ul>
               <li><a href="tel:09028451946"><i className="fa-solid fa-phone" /> 090284 51946</a></li>
               <li><Link href="/contact">33/2 Amravati Rd, Civil Lines, Nagpur</Link></li>
-              <li><a href="https://bookasloth.com/theedulocusway" target="_blank" rel="noopener noreferrer">Book Appointment</a></li>
+              <li><Link href="/contact">Book Appointment</Link></li>
             </ul>
           </div>
         </div>

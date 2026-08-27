@@ -16,8 +16,8 @@ export default function BookConsultant() {
         <div className="container" style={{ maxWidth: '820px' }}>
           <BookingForm />
           <p style={{ marginTop: '18px', color: 'var(--muted)' }}>
-            Prefer to talk? Call <a href="tel:09028451946">090284 51946</a> or book via
-            bookasloth.com.
+            Prefer to talk? Call <a href="tel:09028451946">090284 51946</a> or book via{' '}
+            <a href="https://bookasloth.com/theedulocusway" target="_blank" rel="noopener noreferrer">bookasloth.com</a>.
           </p>
         </div>
       </section>

@@ -7,7 +7,7 @@ const FAQS = [
   { q: 'Which countries do you help with for study abroad?', a: 'We actively support MBBS and higher education in Russia, Germany, USA and several other destinations.' },
   { q: 'Do you help with visas and forex?', a: 'Yes. For study-abroad clients we assist with visa filing and foreign exchange arrangements.' },
   { q: 'Can parents attend the counseling?', a: 'Absolutely. We encourage a joint parent session for major career decisions.' },
-  { q: 'How do I book an appointment?', a: 'Call 090284 51946, book via bookasloth.com, or use our online booking form.' },
+  { q: 'How do I book an appointment?', a: <>Call 090284 51946, book via <a href="https://bookasloth.com/theedulocusway" target="_blank" rel="noopener noreferrer">bookasloth.com</a>, or use our online booking form.</> },
 ]
 
 export default function Faqs() {

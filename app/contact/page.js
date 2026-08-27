@@ -36,7 +36,7 @@ export default function Contact() {
               </div>
             </div>
             <p style={{ marginTop: '18px' }}>
-              <Link className="btn btn-primary" href="/contact">Book an Appointment</Link>
+              <a className="btn btn-primary" href="https://bookasloth.com/theedulocusway" target="_blank" rel="noopener noreferrer">Book an Appointment</a>
             </p>
           </div>
           <div>

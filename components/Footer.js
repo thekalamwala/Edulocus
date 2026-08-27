@@ -64,8 +64,9 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <span>&copy; {year} Edulocus Coach &amp; Consultants. All rights reserved.</span>
-          <span>
-            <Link href="/contact">Privacy Policy</Link> · <Link href="/contact">Terms</Link>
+          <span style={{ display: 'flex', gap: '12px', alignItems: 'center', whiteSpace: 'nowrap' }}>
+            <Link href="/contact">Privacy Policy</Link>
+            <Link href="/contact">Terms</Link>
           </span>
         </div>
       </div>

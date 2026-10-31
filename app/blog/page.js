@@ -9,6 +9,13 @@ const POSTS = [
   { href: '/blog-detail', date: 'Mar 2, 2026', title: 'NEET 2026: What After the Results', excerpt: 'Mapping your options — MBBS, BDS, abroad and more.' },
 ]
 
+export const metadata = {
+  title: 'Blog — Career, College & Study-Abroad Advice | Edulocus Nagpur',
+  description:
+    'Articles and advice from Edulocus, Nagpur: career counselling, college admissions, MBBS abroad, scholarships and study-abroad tips for students and parents.',
+  alternates: { canonical: '/blog' },
+}
+
 export default function Blog() {
   const [feature, ...rest] = POSTS
   return (

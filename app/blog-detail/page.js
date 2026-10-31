@@ -2,6 +2,11 @@ import Link from 'next/link'
 import PageHero from '@/components/PageHero'
 import CTASection from '@/components/CTASection'
 
+export const metadata = {
+  title: 'Blog',
+  robots: { index: false, follow: true },
+}
+
 export default function BlogDetail() {
   return (
     <main>

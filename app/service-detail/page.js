@@ -2,6 +2,11 @@ import Link from 'next/link'
 import PageHero from '@/components/PageHero'
 import CTASection from '@/components/CTASection'
 
+export const metadata = {
+  title: 'Service',
+  robots: { index: false, follow: true },
+}
+
 export default function ServiceDetail() {
   return (
     <main>

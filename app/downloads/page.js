@@ -8,6 +8,13 @@ const DOWNLOADS = [
   { icon: 'fa-solid fa-table', title: 'Scholarship Tracker', desc: 'Spreadsheet to track deadlines & eligibility.' },
 ]
 
+export const metadata = {
+  title: 'Downloads — Guides & Checklists | Edulocus Nagpur',
+  description:
+    'Download free education resources from Edulocus, Nagpur: admission checklists, study-abroad guides and career-planning worksheets for students and parents.',
+  alternates: { canonical: '/downloads' },
+}
+
 export default function Downloads() {
   return (
     <main>

@@ -63,7 +63,11 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <span>&copy; {year} Edulocus Coach &amp; Consultants. All rights reserved.</span>
+          <span>
+            &copy; {year} Edulocus Coach &amp; Consultants. All rights reserved.
+            {' · '}Made by{' '}
+            <a href="https://rajmudramedia.com" target="_blank" rel="noopener noreferrer">Rajmudra</a>
+          </span>
           <span style={{ display: 'flex', gap: '12px', alignItems: 'center', whiteSpace: 'nowrap' }}>
             <Link href="/contact">Privacy Policy</Link>
             <Link href="/contact">Terms</Link>

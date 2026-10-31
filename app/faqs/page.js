@@ -14,7 +14,6 @@ export default function Faqs() {
   return (
     <main>
       <PageHero
-        eyebrow="Resources"
         title="Frequently Asked Questions"
         subtitle="Quick answers to what students and parents ask most."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Resources' }, { label: 'FAQs' }]}

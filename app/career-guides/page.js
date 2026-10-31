@@ -12,7 +12,6 @@ export default function CareerGuides() {
   return (
     <main>
       <PageHero
-        eyebrow="Resources"
         title="Career Guides"
         subtitle="Free, practical reading to help you choose the right path."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Resources' }, { label: 'Career Guides' }]}

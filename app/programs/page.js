@@ -34,7 +34,6 @@ export default function Programs() {
   return (
     <main>
       <PageHero
-        eyebrow="Our Programs"
         title="Structured Pathways"
         subtitle="Structured pathways for every stage of your education journey."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Programs' }]}

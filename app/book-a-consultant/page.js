@@ -6,7 +6,6 @@ export default function BookConsultant() {
   return (
     <main>
       <PageHero
-        eyebrow="Book a Session"
         title="Book a Consultant"
         subtitle="Reserve your session with Atish Gupta and the Edulocus team."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Resources' }, { label: 'Book a Consultant' }]}

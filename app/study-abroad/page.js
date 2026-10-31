@@ -13,7 +13,6 @@ export default function StudyAbroad() {
   return (
     <main>
       <PageHero
-        eyebrow="Programs"
         title="Study Abroad"
         subtitle="MBBS & higher education in Russia, Germany, USA and beyond."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Programs', href: '/programs' }, { label: 'Study Abroad' }]}

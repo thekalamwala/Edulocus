@@ -12,7 +12,6 @@ export default function CollegeGuides() {
   return (
     <main>
       <PageHero
-        eyebrow="Resources"
         title="College Guides"
         subtitle="Everything you need to pick and apply to the right college."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Resources' }, { label: 'College Guides' }]}

@@ -17,7 +17,6 @@ export default function Testimonials() {
   return (
     <main>
       <PageHero
-        eyebrow="Success Stories"
         title="Success Stories"
         subtitle="259+ reviews, 4.9★"
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Success Stories' }]}

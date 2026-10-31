@@ -12,7 +12,6 @@ export default function Downloads() {
   return (
     <main>
       <PageHero
-        eyebrow="Resources"
         title="Downloads"
         subtitle="Useful templates and checklists for your admission journey."
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Resources' }, { label: 'Downloads' }]}

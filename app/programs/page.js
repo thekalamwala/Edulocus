@@ -30,6 +30,13 @@ const PROGRAMS = [
   },
 ]
 
+export const metadata = {
+  title: 'Programs — MBBS, Engineering & Management Admissions | Nagpur',
+  description:
+    'Explore Edulocus programs: MBBS abroad, Engineering, and Management admissions in India and overseas. Personalized guidance from Nagpur’s trusted education consultants.',
+  alternates: { canonical: '/programs' },
+}
+
 export default function Programs() {
   return (
     <main>

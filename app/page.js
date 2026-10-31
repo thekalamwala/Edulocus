@@ -4,6 +4,7 @@ import CTASection from '@/components/CTASection'
 import ProcessTimeline from '@/components/ProcessTimeline'
 import FaqList from '@/components/FaqList'
 import ServiceCards from '@/components/ServiceCards'
+import { faqJsonLd, JsonLd, BUSINESS } from '@/lib/site'
 
 const TRUST = [
   { icon: 'fa-solid fa-calendar-check', num: 'Since 2012', lbl: 'Trusted Nagpur consultancy' },
@@ -101,6 +102,7 @@ export default function Home() {
   const [feature, ...rest] = TESTIMONIALS
   return (
     <main>
+      <JsonLd data={faqJsonLd(FAQS)} />
       {/* Hero */}
       <section className="hero">
         <div className="hero-glow g1" />
@@ -144,7 +146,7 @@ export default function Home() {
             />
             <div className="hero-media-tag t1"><i className="fa-solid fa-globe" /> MBBS in 10+ countries</div>
             <div className="hero-media-tag t2"><i className="fa-solid fa-calendar-check" /> Free 1:1 Counseling</div>
-            <div className="hero-media-tag t3"><i className="fa-solid fa-star" /> 4.9★ · 259 reviews</div>
+            <div className="hero-media-tag t3"><i className="fa-solid fa-star" /> 4.9★ · 289 reviews</div>
           </div>
         </div>
         <div className="hero-scroll">
@@ -294,6 +296,29 @@ export default function Home() {
           <FaqList items={FAQS} />
           <p style={{ textAlign: 'center', marginTop: 22 }}>
             <Link className="btn btn-primary" href="/faqs">View All FAQs</Link>
+          </p>
+        </div>
+      </section>
+
+      {/* Local SEO / AEO answer block */}
+      <section className="section section--slab">
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <span className="eyebrow">Nagpur</span>
+          <h2 style={{ margin: '12px 0 16px' }}>Education consultant in Nagpur</h2>
+          <p style={{ color: 'var(--muted)' }}>
+            Edulocus Coach &amp; Consultants is a Nagpur-based education consultancy, rated
+            4.9★ across 289 Google reviews. Since 2012 we have guided 1000+ students and
+            parents through career counselling, college planning and study-abroad admissions —
+            including MBBS, Engineering and Management programs in India and overseas.
+            Our office is in Civil Lines, Nagpur, and the first 1:1 consultation is free.
+          </p>
+          <p style={{ color: 'var(--muted)', marginTop: 14 }}>
+            We help students across {BUSINESS.areaServed.slice(0, 8).join(', ')} and the wider
+            Vidarbha region. Visit us at {BUSINESS.street}, {BUSINESS.city} {BUSINESS.postalCode},
+            or call <a href={`tel:${BUSINESS.phoneDisplay.replace(/\s/g, '')}`}>{BUSINESS.phoneDisplay}</a>.
+          </p>
+          <p style={{ marginTop: 20 }}>
+            <Link className="btn btn-primary" href="/contact">Visit our Nagpur office</Link>
           </p>
         </div>
       </section>

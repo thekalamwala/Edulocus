@@ -3,6 +3,13 @@ import PageHero from '@/components/PageHero'
 import ContactForm from '@/components/ContactForm'
 import CTASection from '@/components/CTASection'
 
+export const metadata = {
+  title: 'Contact Edulocus — Education Consultant Office in Civil Lines, Nagpur',
+  description:
+    'Visit Edulocus at 33/2, Amravati Rd, Civil Lines, Nagpur 440001, or call 090284 51946. Book a free first consultation for career counselling and study-abroad guidance.',
+  alternates: { canonical: '/contact' },
+}
+
 export default function Contact() {
   return (
     <main>

@@ -2,22 +2,46 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Reveal from '@/components/Reveal'
+import { SITE_URL, SITE_NAME, BUSINESS, businessJsonLd, JsonLd } from '@/lib/site'
 
 export const metadata = {
-  metadataBase: new URL('https://edulocus.com'),
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Edulocus Coach & Consultants | Career & Education Guidance in Nagpur',
+    default: 'Education Consultant in Nagpur | Edulocus Coach & Consultants',
     template: '%s | Edulocus Coach & Consultants',
   },
   description:
-    'Edulocus Coach & Consultants — Nagpur based education consultancy for career counselling, college planning and study abroad (MBBS, Engineering, Management) in India and overseas.',
-  keywords: ['education consultancy', 'career counselling', 'study abroad', 'MBBS abroad', 'Nagpur', 'college planning'],
+    'Top-rated education consultant in Nagpur (4.9★, 289 reviews). Edulocus offers career counselling, college planning, and study-abroad guidance — MBBS, Engineering & Management admissions in India and overseas since 2012. Free first consultation.',
+  keywords: [
+    'education consultant in Nagpur', 'career counselling Nagpur', 'study abroad consultant Nagpur',
+    'MBBS abroad consultant Nagpur', 'best education consultancy Nagpur', 'college admission guidance Nagpur',
+    'overseas education consultant Nagpur', 'career counsellor Nagpur', 'Edulocus', 'study abroad', 'college planning',
+  ],
+  alternates: { canonical: '/' },
   openGraph: {
-    title: 'Edulocus Coach & Consultants',
-    description: 'Personalized career counselling, college planning and study-abroad guidance.',
+    title: 'Education Consultant in Nagpur | Edulocus Coach & Consultants',
+    description:
+      'Nagpur-based education consultancy for career counselling, college planning and study-abroad guidance. 4.9★ · 289 reviews · since 2012.',
+    url: SITE_URL,
+    siteName: SITE_NAME,
     type: 'website',
     locale: 'en_IN',
+    images: [{ url: '/logo.png', width: 512, height: 512, alt: SITE_NAME }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Education Consultant in Nagpur | Edulocus',
+    description: 'Career counselling, college planning & study-abroad guidance in Nagpur. 4.9★ · 289 reviews.',
+    images: ['/logo.png'],
+  },
+  robots: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
+  other: {
+    'geo.region': 'IN-MH',
+    'geo.placename': 'Nagpur',
+    'geo.position': `${BUSINESS.lat};${BUSINESS.lng}`,
+    ICBM: `${BUSINESS.lat}, ${BUSINESS.lng}`,
+  },
+  // Add your Google Search Console token: verification: { google: 'TOKEN' },
 }
 
 export default function RootLayout({ children }) {
@@ -36,6 +60,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
+        <JsonLd data={businessJsonLd()} />
         <Navbar />
         {children}
         <Footer />

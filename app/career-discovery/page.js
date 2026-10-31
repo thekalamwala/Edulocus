@@ -2,6 +2,13 @@ import Link from 'next/link'
 import PageHero from '@/components/PageHero'
 import CTASection from '@/components/CTASection'
 
+export const metadata = {
+  title: 'Career Counselling & Psychometric Testing in Nagpur',
+  description:
+    'Career discovery in Nagpur with psychometric assessment and 1:1 counselling. Edulocus helps students and parents choose the right stream, course and career path with confidence.',
+  alternates: { canonical: '/career-discovery' },
+}
+
 export default function CareerDiscovery() {
   return (
     <main>

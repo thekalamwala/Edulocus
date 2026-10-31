@@ -11,6 +11,13 @@ const SUBNAV = [
   { id: 'philosophy', label: 'Our Philosophy' },
 ]
 
+export const metadata = {
+  title: 'About Edulocus — Education Consultants in Nagpur Since 2012',
+  description:
+    'Edulocus Coach & Consultants is a Nagpur-based education consultancy founded in 2012 by Atish Gupta. 1000+ students guided across India and abroad. 4.9★ · 289 reviews.',
+  alternates: { canonical: '/about' },
+}
+
 export default function About() {
   return (
     <main>

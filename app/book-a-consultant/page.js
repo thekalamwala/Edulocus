@@ -2,6 +2,13 @@ import PageHero from '@/components/PageHero'
 import BookingForm from '@/components/BookingForm'
 import CTASection from '@/components/CTASection'
 
+export const metadata = {
+  title: 'Book a Free Consultation — Edulocus, Nagpur',
+  description:
+    'Book a free first career consultation with Edulocus in Nagpur. Detailed admission counselling packages start at ₹1,000. Call 090284 51946 or book online.',
+  alternates: { canonical: '/book-a-consultant' },
+}
+
 export default function BookConsultant() {
   return (
     <main>

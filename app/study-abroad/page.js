@@ -9,6 +9,13 @@ const DESTINATIONS = [
   { name: 'United Kingdom', blurb: 'Historic universities and a fast graduate route to work.', img: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=900&q=60' },
 ]
 
+export const metadata = {
+  title: 'Study Abroad Consultant in Nagpur — MBBS, Germany, USA, UK, Canada',
+  description:
+    'Study-abroad consultant in Nagpur for MBBS and higher education in Russia, Germany, USA, UK, Canada & Australia. University shortlisting, visa filing and forex support from Edulocus.',
+  alternates: { canonical: '/study-abroad' },
+}
+
 export default function StudyAbroad() {
   return (
     <main>

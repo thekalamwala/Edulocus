@@ -10,6 +10,13 @@ const ITEMS = [
   { icon: 'fa-solid fa-comments', title: 'Interview Prep', desc: 'Mock sessions & confidence building.' },
 ]
 
+export const metadata = {
+  title: 'College Planning & Admission Guidance in Nagpur',
+  description:
+    'College planning in Nagpur: shortlisting, applications, and scholarship guidance tailored to your profile and budget. Edulocus supports admissions across India and abroad.',
+  alternates: { canonical: '/college-planning' },
+}
+
 export default function CollegePlanning() {
   return (
     <main>

@@ -84,6 +84,13 @@ const SERVICES = [
   },
 ]
 
+export const metadata = {
+  title: 'Education & Career Counselling Services in Nagpur',
+  description:
+    'Career discovery, college planning, and study-abroad services from Edulocus, Nagpur. Psychometric testing, admissions, scholarships, MBBS abroad, visa and forex support.',
+  alternates: { canonical: '/services' },
+}
+
 export default function Services() {
   return (
     <main>

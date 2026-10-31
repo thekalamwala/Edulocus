@@ -11,11 +11,13 @@ export const metadata = {
     template: '%s | Edulocus Coach & Consultants',
   },
   description:
-    'Top-rated education consultant in Nagpur (4.9★, 289 reviews). Edulocus offers career counselling, college planning, and study-abroad guidance — MBBS, Engineering & Management admissions in India and overseas since 2012. Free first consultation.',
+    'Top-rated education & admission consultant and career counsellor in Nagpur (4.9★, 289 reviews). Edulocus offers career counselling, college planning, and study-abroad guidance — MBBS, Engineering & Management admissions in India and overseas since 2012. Free first consultation.',
   keywords: [
-    'education consultant in Nagpur', 'career counselling Nagpur', 'study abroad consultant Nagpur',
-    'MBBS abroad consultant Nagpur', 'best education consultancy Nagpur', 'college admission guidance Nagpur',
-    'overseas education consultant Nagpur', 'career counsellor Nagpur', 'Edulocus', 'study abroad', 'college planning',
+    'education consultant in Nagpur', 'admission consultant in Nagpur', 'career counsellor in Nagpur',
+    'education counsellor Nagpur', 'admission consultancy Nagpur', 'career counselling Nagpur',
+    'study abroad consultant Nagpur', 'MBBS abroad consultant Nagpur', 'best education consultancy Nagpur',
+    'college admission guidance Nagpur', 'overseas education consultant Nagpur', 'student counsellor Nagpur',
+    'Edulocus', 'study abroad', 'college planning',
   ],
   alternates: { canonical: '/' },
   openGraph: {

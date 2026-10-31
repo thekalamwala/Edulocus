@@ -304,13 +304,14 @@ export default function Home() {
       <section className="section section--slab">
         <div className="container" style={{ maxWidth: '820px' }}>
           <span className="eyebrow">Nagpur</span>
-          <h2 style={{ margin: '12px 0 16px' }}>Education consultant in Nagpur</h2>
+          <h2 style={{ margin: '12px 0 16px' }}>Education &amp; admission consultant and career counsellor in Nagpur</h2>
           <p style={{ color: 'var(--muted)' }}>
-            Edulocus Coach &amp; Consultants is a Nagpur-based education consultancy, rated
-            4.9★ across 289 Google reviews. Since 2012 we have guided 1000+ students and
-            parents through career counselling, college planning and study-abroad admissions —
-            including MBBS, Engineering and Management programs in India and overseas.
-            Our office is in Civil Lines, Nagpur, and the first 1:1 consultation is free.
+            Edulocus Coach &amp; Consultants is a Nagpur-based education consultant, admission
+            consultant and career counsellor, rated 4.9★ across 289 Google reviews. Since 2012
+            we have guided 1000+ students and parents through career counselling, college
+            planning and study-abroad admissions — including MBBS, Engineering and Management
+            programs in India and overseas. Our office is in Civil Lines, Nagpur, and the first
+            1:1 consultation is free.
           </p>
           <p style={{ color: 'var(--muted)', marginTop: 14 }}>
             We help students across {BUSINESS.areaServed.slice(0, 8).join(', ')} and the wider

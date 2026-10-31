@@ -11,6 +11,13 @@ const AUDIENCES = [
   { icon: 'fa-solid fa-globe', title: 'Study-Abroad Hopefuls', desc: 'From country selection to visa & forex.' },
 ]
 
+export const metadata = {
+  title: 'Who We Help — Students & Parents | Edulocus Nagpur',
+  description:
+    'Edulocus helps school students, graduates and parents in Nagpur with career counselling, college admissions and study-abroad planning across India and overseas.',
+  alternates: { canonical: '/who-we-help' },
+}
+
 export default function WhoWeHelp() {
   return (
     <main>

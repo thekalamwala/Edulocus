@@ -8,6 +8,13 @@ const GUIDES = [
   { meta: 'Guide', title: 'How Psychometric Tests Help', desc: 'Why aptitude testing beats guesswork in career choice.' },
 ]
 
+export const metadata = {
+  title: 'Career Guides — Streams, Courses & Careers | Edulocus Nagpur',
+  description:
+    'Free career guides from Edulocus, Nagpur: choosing streams after 10th and 12th, course options, and career paths. Guidance from experienced career counsellors.',
+  alternates: { canonical: '/career-guides' },
+}
+
 export default function CareerGuides() {
   return (
     <main>

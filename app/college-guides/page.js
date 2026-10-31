@@ -8,6 +8,13 @@ const GUIDES = [
   { meta: 'Guide', title: 'Scholarship Opportunities 2026', desc: 'Where to find aid and how to apply.' },
 ]
 
+export const metadata = {
+  title: 'College Guides — Top Colleges in Maharashtra & Abroad | Edulocus',
+  description:
+    'College guides from Edulocus, Nagpur: top medical, engineering and management colleges in Maharashtra and abroad, with admission and scholarship insights.',
+  alternates: { canonical: '/college-guides' },
+}
+
 export default function CollegeGuides() {
   return (
     <main>

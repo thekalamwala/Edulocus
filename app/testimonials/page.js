@@ -13,6 +13,13 @@ const REVIEWS = [
   { stars: 5, text: 'Honest and transparent guidance for my PG abroad. Highly recommended.', who: 'Pooja Pramanik' },
 ]
 
+export const metadata = {
+  title: 'Testimonials — 4.9★ from 289 Reviews | Edulocus Nagpur',
+  description:
+    'Read what students and parents say about Edulocus, Nagpur — rated 4.9★ across 289 Google reviews for career counselling and study-abroad guidance.',
+  alternates: { canonical: '/testimonials' },
+}
+
 export default function Testimonials() {
   return (
     <main>

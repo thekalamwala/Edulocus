@@ -2,6 +2,13 @@ import Link from 'next/link'
 import PageHero from '@/components/PageHero'
 import CTASection from '@/components/CTASection'
 
+export const metadata = {
+  title: 'Student Success Stories | Edulocus Nagpur',
+  description:
+    'Real success stories from Edulocus students — admissions to MBBS abroad, engineering and management programs in India and overseas. Nagpur’s trusted consultants.',
+  alternates: { canonical: '/student-success' },
+}
+
 export default function StudentSuccess() {
   return (
     <main>

@@ -11,6 +11,13 @@ const STEPS = [
   { title: 'Succeed', desc: 'Admission confirmation, visa and post-landing support until you settle in.' },
 ]
 
+export const metadata = {
+  title: 'Our Process — How Edulocus Guides You | Nagpur',
+  description:
+    'Edulocus’s five-step process — Discover, Plan, Shortlist, Apply, Achieve — takes the guesswork out of career and admission decisions. Nagpur-based, since 2012.',
+  alternates: { canonical: '/our-process' },
+}
+
 export default function OurProcess() {
   return (
     <main>
